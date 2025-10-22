@@ -64,7 +64,7 @@ Here you will see incoming logs and events from your virtual machine — such as
 * Index patterns: logs-* or select your agent’s data stream
 * Custom query: 
 *process.name : "nmap" OR event.action : "exec" AND message : "*nmap*"*
-* Set the Schedu
+* Set the Schedule
 * Define Actions
 * Save and Enable
 
