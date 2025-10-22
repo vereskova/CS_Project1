@@ -7,7 +7,7 @@ Monitoring setup with a virtual machine and Elasticsearch. Custom detection rule
 ## Part Elastic
 Setting up Elastic Defend Integration
 
-* * Follow these steps to connect your virtual machine and enable alert detection in Elasticsearch:
+*Follow these steps to connect your virtual machine and enable alert detection in Elasticsearch:*
 
 ### 1) Log in to your Elastic Cloud account
 Open your Elastic dashboard and choose the desired deployment.
