@@ -54,7 +54,16 @@ Here you will see incoming logs and events from your virtual machine — such as
 ![Discover View](images/discover_view.png)
 
 ## Part Create Rule
+### 1) Create a New Rule
 
+### 2) Set up the rule 
+![Rule Configurations](images/create_rule.png)
+
+* Name
+* Description
+* Index patterns: logs-* or select your agent’s data stream
+* Custom query: 
+*process.name : "nmap" OR event.action : "exec" AND message : "*nmap*"*
 
 
 
