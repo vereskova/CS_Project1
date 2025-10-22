@@ -55,6 +55,8 @@ Here you will see incoming logs and events from your virtual machine — such as
 
 ## Part Create Rule
 ### 1) Create a New Rule
+You can find my rule [here](rules/rules_export.ndjson).
+
 
 ### 2) Set up the rule 
 ![Rule Configurations](images/create_rule.png)
