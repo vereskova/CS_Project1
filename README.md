@@ -4,6 +4,22 @@ Monitoring setup with a virtual machine and Elasticsearch. Custom detection rule
 ## Architecture
 ![System Architecture](images/architecture.png)
 
+## Part VM (Kali)
+
+### 1) Download Virtual Box 
+Download actual version of Virtual Box for your PC architecture
+Link: https://www.virtualbox.org/wiki/Downloads
+
+### 2) Download Kali Linux
+Download last actual version of Kali Linux. Pre-bild recomended.
+Link: https://www.kali.org/get-kali/#kali-platforms
+
+### 3) Importing Kali VM into VirtualBox
+Follow steps here: https://www.kali.org/docs/virtualization/import-premade-virtualbox/
+*Credentials: 
+Login: kali
+Password: kali*
+
 ## Part Elastic
 Setting up Elastic Defend Integration
 
@@ -23,7 +39,6 @@ which provides endpoint security and alerting capabilities.
 This opens the configuration wizard for the integration.
 
 ### 5) Configure the integration
-
 Choose or create an agent policy.
 (Optional) Adjust settings such as malware protection, event collection, etc.
 Click “Save and continue”.
@@ -37,3 +52,9 @@ Once connected, your VM will start sending logs and security events to Elasticse
 Open Kibana → Discover.
 Here you will see incoming logs and events from your virtual machine — such as process activity, hostnames, source IPs, usernames, and timestamps.
 ![Discover View](images/discover_view.png)
+
+## Part Create Rule
+
+
+
+
