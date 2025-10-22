@@ -68,11 +68,11 @@ Here you will see incoming logs and events from your virtual machine — such as
 * Define Actions
 * Save and Enable
 
-After a few minutes, the rule will start analyzing incoming events, .
+After a few minutes, the rule will start analyzing incoming events.
 
 ### 7) Verify Alerts
 From the virtual machine, run a command that will trigger the alert (nmap -A -sv localhost), and then check if the alert message appears in **Alerts**.
-
+![Alert Example](images/alert.png)
 
 
 
